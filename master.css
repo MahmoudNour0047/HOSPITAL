@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* start nav */
+a{
+    text-decoration: none;
+    color:#eee;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0; 
+    background-color: black;
+}
+nav .logo{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: auto;
+}
+nav ul li{
+    margin-right: 20px;
+}
+nav ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+nav ul li a:hover, .active{
+    background: #eee;
+    color: #200016;
+}
+/* End nav */
+/* Start Header */
+header{
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9)), url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+.header{
+    text-align: center;
+    padding: 15%;
+    color: #eee;
+}
+.header h2{
+    letter-spacing: 1px;
+    word-spacing: 8px;
+    font-size: 30px;
+    line-height: 2;
+}
+.header p{
+    word-spacing: 2px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.header button{
+    padding: 10px 24px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 12px;
+}
+.Header-button-1{
+    background-color: #581818;
+}
+.Header-button-2{
+    background-color: #245b28;
+}
+/* End Header */
+/* Start Content */
+h3{
+    text-align: center;
+    margin: 25px 0 10px;
+    word-spacing: 7px;
+}
+hr{
+    width: 9%;
+    padding-top: 5px;
+    margin-left: 46%;
+    border-bottom: 1px solid red;
+    border-style:groove ;
+    background-color: red;
+}
+.sec-1-div{
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+}
+img{
+    width: 300px;
+    height: 250px;
+}
+.sec-1-p-1{
+    margin-left: 100px;
+    margin-top: 15%;
+    text-align: center;
+}
+.sec-1-p-2{
+    margin-right: 100px;
+    margin-top: 15%;
+    text-align: center;
+}
+.sec-2{
+    background-color: #eeeeee33;
+    width: 80%;
+    height: 700px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.sec-2-1{
+    background-color: #fff;
+    width: 400px;
+    height: 300px;
+    border: 1px groove #00000029;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow:0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.sec-2-img{
+    width: 400px;
+}
+.sec-2-p{
+    text-align: center;
+}
+/* End Content */
+/* Start footer */
+.sec-foot-1{
+    background-image: url(img/contact\ us.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.sec-foot-1-h2{
+    color: #EEE;
+    letter-spacing: 2PX;
+    font-size: 23PX;
+    padding: 20px;
+}
+.sec-foot-1 form input{
+    width: 80%;
+    padding: 7px;
+    padding-left: 25px;
+    margin: 10px;
+}
+.sec-foot-1 form textarea{
+    width: 80%;
+    padding: 7px;
+    padding-left: 25px;
+    margin: 10px;
+}
+.sec-foot-1  form button{
+    margin-bottom: 10px;
+    background-color: #000;
+    color: #eee;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 16px
+}
+.sec-foot-2{
+    background-image: url(img/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.sec-foot-2 form input{
+    width: 80%;
+    padding: 7px;
+    padding-left: 25px;
+    margin: 10px;
+}
+.sec-foot-2  form button{
+    margin-bottom: 10px;
+    background-color: #000;
+    color: #eee;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 16px
+}
+/* End footer */
